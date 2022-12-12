@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "Go Rent",
+    "slug": "go-rent",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "description":"Go Rent is a mobile app that makes it easy to buy and rent and buy properties around the world. As simple as register and go for it!",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "82b1b680-9e0a-48af-8cc7-c4ccf16bf53d"
+      }
+    },
+    "owner": "txakur"
+  }
+}
